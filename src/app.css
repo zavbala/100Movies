@@ -1,0 +1,130 @@
+:root {
+	--bunker: #0a1016;
+	--outer-space: #34393e;
+	--spring-green: #00e36a;
+	--shark: #1f2225;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	position: relative;
+	margin: auto;
+	background-color: var(--bunker);
+}
+
+* {
+	/* outline: 1px solid yellow; */
+	box-sizing: border-box;
+	user-select: none;
+}
+
+svg,
+kbd,
+img,
+i {
+	pointer-events: none;
+}
+
+i,
+h1,
+h2,
+h3,
+h4,
+h5,
+input,
+span {
+	color: #fff;
+	font-family: 'Bebas Neue', sans-serif;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: #fff;
+	margin-bottom: 0.7rem;
+}
+
+a {
+	outline: none;
+	color: transparent;
+}
+
+button,
+input {
+	appearance: none;
+	border: none;
+	cursor: pointer;
+	background-color: transparent;
+}
+
+button,
+input:focus {
+	outline: none;
+}
+
+button {
+	padding: 0.3rem;
+	border-radius: 3px;
+	width: 2rem;
+	height: 2rem;
+	background-color: var(--outer-space);
+	color: #fff;
+	font-size: 1rem;
+}
+
+button:hover {
+	background-color: var(--shark);
+	transition: all 0.2s;
+}
+
+kbd {
+	border-radius: 3px;
+	border-width: 1px 1px 3px;
+	border-style: solid;
+	font-family: 'Space Mono', monospace;
+	font-size: 0.7rem;
+	background-color: var(--spring-green);
+	color: var(--bunker);
+	border-color: var(--bunker);
+	padding: 0.3rem 0.5rem;
+}
+
+@media print {
+	nav,
+	footer {
+		visibility: hidden;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	kbd {
+		display: none;
+	}
+}
+
+@page {
+	size: auto;
+	margin: 0;
+}
+
+/* Mixins */
+
+.apart {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.flex-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ghost {
+	filter: blur(3px);
+}
