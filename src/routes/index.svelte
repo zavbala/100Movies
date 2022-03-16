@@ -20,7 +20,8 @@
 
 	export let items;
 	setContext('items', items);
-	onMount(() => console.log('%c github/zavbala/100movies', 'font-size:1rem'));
+
+	// onMount(() => console.log('%c github/zavbala/100movies', 'font-size:1rem'));
 </script>
 
 <svelte:head>
@@ -29,6 +30,3 @@
 
 <Navbar />
 <Bucket />
-
-<style>
-</style>

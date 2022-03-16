@@ -37,4 +37,10 @@
 			grid-template-columns: repeat(2, 1fr);
 		}
 	}
+
+	@media print {
+		section {
+			grid-template-columns: repeat(10, 1fr);
+		}
+	}
 </style>

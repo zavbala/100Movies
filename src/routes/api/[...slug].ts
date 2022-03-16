@@ -1,5 +1,5 @@
-import MoviesJSON from '../../../static/movies.json';
-import fs from 'fs';
+import MoviesJSON from '$lib/data/movies.json';
+// import fs from 'fs';
 
 /** @type {import('@sveltejs/kit').RequestHandler} */
 export const get = async ({ params }) => {
@@ -15,11 +15,12 @@ export const get = async ({ params }) => {
 	}
 
 	if (movieId) {
-		const filteredByID = MoviesJSON.filter((movie) => movie.id === movieId);
-		if (filteredByID.length) {
+		const [filteredByID] = MoviesJSON.filter((movie) => movie.id === movieId);
+
+		if (filteredByID) {
 			return {
 				body: {
-					...filteredByID[0]
+					...filteredByID
 				}
 			};
 		} else {
@@ -32,11 +33,11 @@ export const get = async ({ params }) => {
 		}
 	}
 
-	const { mtime } = fs.statSync('./static/movies.json');
+	// const { mtime } = fs.statSync('./');
 
 	return {
 		body: {
-			last_update: mtime,
+			// last_update: mtime,
 			items: MoviesJSON
 			// pages: 0
 		}

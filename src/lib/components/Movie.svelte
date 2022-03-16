@@ -19,6 +19,8 @@
 		const { id } = event.target as HTMLElement;
 		const split = $bucket.split(',');
 
+		console.log(split);
+
 		if (isWatched) {
 			split.splice(split.indexOf(id), 1);
 			$bucket = String([...split]);
@@ -60,7 +62,7 @@
 
 	h4 {
 		text-transform: capitalize;
-		font-family: 'Bebas Neue';
+		font-family: 'Bebas Neue', sans-serif;
 		text-align: center;
 		letter-spacing: 0.1rem;
 	}
@@ -82,6 +84,22 @@
 	@media screen and (max-width: 1024px) {
 		article:hover {
 			transform: scale(100%);
+		}
+	}
+
+	@media print {
+		i,
+		h4 {
+			display: none;
+		}
+
+		img {
+			filter: blur(0px);
+			width: 75px;
+		}
+
+		article {
+			margin: auto;
 		}
 	}
 </style>

@@ -8,7 +8,7 @@
 				.share({
 					url: 'https://100movies.vercel.app'
 				})
-				.then((resolve) => console.log('Success'))
+				.then((resolve) => console.log(resolve))
 				.catch((error) => console.log(error));
 		}
 	};
@@ -28,17 +28,22 @@
 	</div>
 
 	<ul>
-		<!-- <li on:click={() => goto('docs')}>Developer</li> -->
-		<li>GitHub</li>
+		<li>
+			<a href="https://github.com/zavbala/100Movies" target="_blank"> GitHub </a>
+		</li>
 	</ul>
 
-	<div>
+	<div id="actions">
 		<button on:click={share}>
 			<i class="fi fi-rr-share" />
 		</button>
 
 		<button on:click={resetBucket}>
 			<i class="fi fi-rr-trash" />
+		</button>
+
+		<button on:click={() => window.print()}>
+			<i class="fi fi-rr-print" />
 		</button>
 	</div>
 </footer>
@@ -75,6 +80,14 @@
 		footer {
 			flex-direction: column;
 			justify-content: center;
+		}
+	}
+
+	@media print {
+		ul,
+		/* div > i, */
+		#actions {
+			display: none;
 		}
 	}
 </style>

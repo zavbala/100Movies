@@ -17,7 +17,13 @@
 <nav>
 	<div class="apart">
 		<i class="fi fi-rr-search" />
-		<input bind:this={inputRef} bind:value={$query} autocomplete="off" type="search" />
+		<input
+			bind:this={inputRef}
+			bind:value={$query}
+			autocomplete="off"
+			type="search"
+			placeholder="Search Movies"
+		/>
 
 		{#if $query}
 			<button on:click|once={restoreQuery}>
@@ -75,9 +81,9 @@
 		letter-spacing: 0.1rem;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1024px) {
 		div {
-			width: 90%;
+			width: 95%;
 			margin: auto;
 		}
 	}

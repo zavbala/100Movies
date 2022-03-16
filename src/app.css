@@ -24,6 +24,7 @@ body {
 svg,
 kbd,
 img,
+h4,
 i {
 	pointer-events: none;
 }
@@ -49,8 +50,7 @@ ul {
 }
 
 a {
-	outline: none;
-	color: transparent;
+	color: inherit;
 }
 
 button,
@@ -94,8 +94,7 @@ kbd {
 }
 
 @media print {
-	nav,
-	footer {
+	nav {
 		visibility: hidden;
 	}
 }
@@ -107,7 +106,7 @@ kbd {
 }
 
 @page {
-	size: auto;
+	size: ledger portrait;
 	margin: 0;
 }
 
