@@ -1,0 +1,702 @@
+[
+	{
+		"id": 111161,
+		"source": "https://www.imdb.com/title/tt0111161/",
+		"title": "The Shawshank Redemption",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@.jpg",
+		"score": 9.3
+	},
+	{
+		"id": 68646,
+		"source": "https://www.imdb.com/title/tt0068646/",
+		"title": "The Godfather",
+		"poster": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@.jpg",
+		"score": 9.2
+	},
+	{
+		"id": 71562,
+		"source": "https://www.imdb.com/title/tt0071562/",
+		"title": "The Godfather Part II",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@.jpg",
+		"score": 9.0
+	},
+	{
+		"id": 468569,
+		"source": "https://www.imdb.com/title/tt0468569/",
+		"title": "The Dark Knight",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@.jpg",
+		"score": 9.0
+	},
+	{
+		"id": 50083,
+		"source": "https://www.imdb.com/title/tt0050083/",
+		"title": "12 Angry Men",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@.jpg",
+		"score": 9.0
+	},
+	{
+		"id": 108052,
+		"source": "https://www.imdb.com/title/tt0108052/",
+		"title": "Schindler's List",
+		"poster": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@.jpg",
+		"score": 9.0
+	},
+	{
+		"id": 167260,
+		"source": "https://www.imdb.com/title/tt0167260/",
+		"title": "The Lord of the Rings: The Return of the King",
+		"poster": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@.jpg",
+		"score": 9.0
+	},
+	{
+		"id": 110912,
+		"source": "https://www.imdb.com/title/tt0110912/",
+		"title": "Pulp Fiction",
+		"poster": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@.jpg",
+		"score": 8.9
+	},
+	{
+		"id": 60196,
+		"source": "https://www.imdb.com/title/tt0060196/",
+		"title": "The Good, the Bad and the Ugly",
+		"poster": "https://m.media-amazon.com/images/M/MV5BNjJlYmNkZGItM2NhYy00MjlmLTk5NmQtNjg1NmM2ODU4OTMwXkEyXkFqcGdeQXVyMjUzOTY1NTc@.jpg",
+		"score": 8.8
+	},
+	{
+		"id": 137523,
+		"source": "https://www.imdb.com/title/tt0137523/",
+		"title": "Fight Club",
+		"poster": "https://m.media-amazon.com/images/M/MV5BNDIzNDU0YzEtYzE5Ni00ZjlkLTk5ZjgtNjM3NWE4YzA3Nzk3XkEyXkFqcGdeQXVyMjUzOTY1NTc@.jpg",
+		"score": 8.8
+	},
+	{
+		"id": 7286456,
+		"source": "https://www.imdb.com/title/tt7286456/",
+		"title": "Joker",
+		"poster": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@.jpg",
+		"score": 8.4
+	},
+	{
+		"id": 120737,
+		"source": "https://www.imdb.com/title/tt0120737/",
+		"title": "The Lord of the Rings: The Fellowship of the Ring",
+		"poster": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@.jpg",
+		"score": 8.8
+	},
+	{
+		"id": 109830,
+		"source": "https://www.imdb.com/title/tt0109830/",
+		"title": "Forrest Gump",
+		"poster": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@.jpg",
+		"score": 8.8
+	},
+	{
+		"id": 1375666,
+		"source": "https://www.imdb.com/title/tt1375666/",
+		"title": "Inception",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@.jpg",
+		"score": 8.8
+	},
+	{
+		"id": 80684,
+		"source": "https://www.imdb.com/title/tt0080684/",
+		"title": "Star Wars: Episode V - The Empire Strikes Back",
+		"poster": "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@.jpg",
+		"score": 8.7
+	},
+	{
+		"id": 167261,
+		"source": "https://www.imdb.com/title/tt0167261/",
+		"title": "The Lord of the Rings: The Two Towers",
+		"poster": "https://m.media-amazon.com/images/M/MV5BZGMxZTdjZmYtMmE2Ni00ZTdkLWI5NTgtNjlmMjBiNzU2MmI5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@.jpg",
+		"score": 8.8
+	},
+	{
+		"id": 133093,
+		"source": "https://www.imdb.com/title/tt0133093/",
+		"title": "The Matrix",
+		"poster": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@.jpg",
+		"score": 8.7
+	},
+	{
+		"id": 73486,
+		"source": "https://www.imdb.com/title/tt0073486/",
+		"title": "One Flew Over the Cuckoo's Nest",
+		"poster": "https://m.media-amazon.com/images/M/MV5BZjA0OWVhOTAtYWQxNi00YzNhLWI4ZjYtNjFjZTEyYjJlNDVlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@.jpg",
+		"score": 8.7
+	},
+	{
+		"id": 99685,
+		"source": "https://www.imdb.com/title/tt0099685/",
+		"title": "Goodfellas",
+		"poster": "https://m.media-amazon.com/images/M/MV5BY2NkZjEzMDgtN2RjYy00YzM1LWI4ZmQtMjIwYjFjNmI3ZGEwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@.jpg",
+		"score": 8.7
+	},
+	{
+		"id": 47478,
+		"source": "https://www.imdb.com/title/tt0047478/",
+		"title": "Seven Samurai",
+		"poster": "https://m.media-amazon.com/images/M/MV5BNWQ3OTM4ZGItMWEwZi00MjI5LWI3YzgtNTYwNWRkNmIzMGI5XkEyXkFqcGdeQXVyNDY2MTk1ODk@.jpg",
+		"score": 8.6
+	},
+	{
+		"id": 114369,
+		"source": "https://www.imdb.com/title/tt0114369/",
+		"title": "Se7en",
+		"poster": "https://m.media-amazon.com/images/M/MV5BOTUwODM5MTctZjczMi00OTk4LTg3NWUtNmVhMTAzNTNjYjcyXkEyXkFqcGdeQXVyNjU0OTQ0OTY@.jpg",
+		"score": 8.6
+	},
+	{
+		"id": 317248,
+		"source": "https://www.imdb.com/title/tt0317248/",
+		"title": "City of God",
+		"poster": "https://m.media-amazon.com/images/M/MV5BOTMwYjc5ZmItYTFjZC00ZGQ3LTlkNTMtMjZiNTZlMWQzNzI5XkEyXkFqcGdeQXVyNzkwMjQ5NzM@.jpg",
+		"score": 8.6
+	},
+	{
+		"id": 118799,
+		"source": "https://www.imdb.com/title/tt0118799/",
+		"title": "Life Is Beautiful",
+		"poster": "https://m.media-amazon.com/images/M/MV5BYmJmM2Q4NmMtYThmNC00ZjRlLWEyZmItZTIwOTBlZDQ3NTQ1XkEyXkFqcGdeQXVyMTQxNzMzNDI@.jpg",
+		"score": 8.6
+	},
+	{
+		"id": 102926,
+		"source": "https://www.imdb.com/title/tt0102926/",
+		"title": "The Silence of the Lambs",
+		"poster": "https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@.jpg",
+		"score": 8.6
+	},
+	{
+		"id": 76759,
+		"source": "https://www.imdb.com/title/tt0076759/",
+		"title": "Star Wars: Episode IV - A New Hope",
+		"poster": "https://m.media-amazon.com/images/M/MV5BOTA5NjhiOTAtZWM0ZC00MWNhLThiMzEtZDFkOTk2OTU1ZDJkXkEyXkFqcGdeQXVyMTA4NDI1NTQx.jpg",
+		"score": 8.6
+	},
+	{
+		"id": 38650,
+		"source": "https://www.imdb.com/title/tt0038650/",
+		"title": "It's a Wonderful Life",
+		"poster": "https://m.media-amazon.com/images/M/MV5BZjc4NDZhZWMtNGEzYS00ZWU2LThlM2ItNTA0YzQ0OTExMTE2XkEyXkFqcGdeQXVyNjUwMzI2NzU@.jpg",
+		"score": 8.6
+	},
+	{
+		"id": 120815,
+		"source": "https://www.imdb.com/title/tt0120815/",
+		"title": "Saving Private Ryan",
+		"poster": "https://m.media-amazon.com/images/M/MV5BZjhkMDM4MWItZTVjOC00ZDRhLThmYTAtM2I5NzBmNmNlMzI1XkEyXkFqcGdeQXVyNDYyMDk5MTU@.jpg",
+		"score": 8.6
+	},
+	{
+		"id": 245429,
+		"source": "https://www.imdb.com/title/tt0245429/",
+		"title": "Spirited Away",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@.jpg",
+		"score": 8.6
+	},
+	{
+		"id": 120689,
+		"source": "https://www.imdb.com/title/tt0120689/",
+		"title": "The Green Mile",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3.jpg",
+		"score": 8.6
+	},
+	{
+		"id": 110413,
+		"source": "https://www.imdb.com/title/tt0110413/",
+		"title": "L\u00e9on: The Professional",
+		"poster": "https://m.media-amazon.com/images/M/MV5BOTgyMWQ0ZWUtN2Q2MS00NmY0LWI3OWMtNjFkMzZlNDZjNTk0XkEyXkFqcGdeQXVyMjUzOTY1NTc@.jpg",
+		"score": 8.5
+	},
+	{
+		"id": 56058,
+		"source": "https://www.imdb.com/title/tt0056058/",
+		"title": "Harakiri",
+		"poster": "https://m.media-amazon.com/images/M/MV5BYjBmYTQ1NjItZWU5MS00YjI0LTg2OTYtYmFkN2JkMmNiNWVkXkEyXkFqcGdeQXVyMTMxMTY0OTQ@.jpg",
+		"score": 8.6
+	},
+	{
+		"id": 816692,
+		"source": "https://www.imdb.com/title/tt0816692/",
+		"title": "Interstellar",
+		"poster": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@.jpg",
+		"score": 8.6
+	},
+	{
+		"id": 114814,
+		"source": "https://www.imdb.com/title/tt0114814/",
+		"title": "The Usual Suspects",
+		"poster": "https://m.media-amazon.com/images/M/MV5BYTViNjMyNmUtNDFkNC00ZDRlLThmMDUtZDU2YWE4NGI2ZjVmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@.jpg",
+		"score": 8.5
+	},
+	{
+		"id": 110357,
+		"source": "https://www.imdb.com/title/tt0110357/",
+		"title": "The Lion King",
+		"poster": "https://m.media-amazon.com/images/M/MV5BYTYxNGMyZTYtMjE3MS00MzNjLWFjNmYtMDk3N2FmM2JiM2M1XkEyXkFqcGdeQXVyNjY5NDU4NzI@.jpg",
+		"score": 8.5
+	},
+	{
+		"id": 120586,
+		"source": "https://www.imdb.com/title/tt0120586/",
+		"title": "American History X",
+		"poster": "https://m.media-amazon.com/images/M/MV5BZTJhN2FkYWEtMGI0My00YWM4LWI2MjAtM2UwNjY4MTI2ZTQyXkEyXkFqcGdeQXVyNjc3MjQzNTI@.jpg",
+		"score": 8.5
+	},
+	{
+		"id": 88763,
+		"source": "https://www.imdb.com/title/tt0088763/",
+		"title": "Back to the Future",
+		"poster": "https://m.media-amazon.com/images/M/MV5BZmU0M2Y1OGUtZjIxNi00ZjBkLTg1MjgtOWIyNThiZWIwYjRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@.jpg",
+		"score": 8.5
+	},
+	{
+		"id": 253474,
+		"source": "https://www.imdb.com/title/tt0253474/",
+		"title": "The Pianist",
+		"poster": "https://m.media-amazon.com/images/M/MV5BOWRiZDIxZjktMTA1NC00MDQ2LWEzMjUtMTliZmY3NjQ3ODJiXkEyXkFqcGdeQXVyNjU0OTQ0OTY@.jpg",
+		"score": 8.5
+	},
+	{
+		"id": 27977,
+		"source": "https://www.imdb.com/title/tt0027977/",
+		"title": "Modern Times",
+		"poster": "https://m.media-amazon.com/images/M/MV5BYjJiZjMzYzktNjU0NS00OTkxLWEwYzItYzdhYWJjN2QzMTRlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@.jpg",
+		"score": 8.5
+	},
+	{
+		"id": 103064,
+		"source": "https://www.imdb.com/title/tt0103064/",
+		"title": "Terminator 2: Judgment Day",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMGU2NzRmZjUtOGUxYS00ZjdjLWEwZWItY2NlM2JhNjkxNTFmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@.jpg",
+		"score": 8.6
+	},
+	{
+		"id": 1675434,
+		"source": "https://www.imdb.com/title/tt1675434/",
+		"title": "The Intouchables",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMTYxNDA3MDQwNl5BMl5BanBnXkFtZTcwNTU4Mzc1Nw@@.jpg",
+		"score": 8.5
+	},
+	{
+		"id": 54215,
+		"source": "https://www.imdb.com/title/tt0054215/",
+		"title": "Psycho",
+		"poster": "https://m.media-amazon.com/images/M/MV5BNTQwNDM1YzItNDAxZC00NWY2LTk0M2UtNDIwNWI5OGUyNWUxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@.jpg",
+		"score": 8.5
+	},
+	{
+		"id": 172495,
+		"source": "https://www.imdb.com/title/tt0172495/",
+		"title": "Gladiator",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@.jpg",
+		"score": 8.5
+	},
+	{
+		"id": 21749,
+		"source": "https://www.imdb.com/title/tt0021749/",
+		"title": "City Lights",
+		"poster": "https://m.media-amazon.com/images/M/MV5BY2I4MmM1N2EtM2YzOS00OWUzLTkzYzctNDc5NDg2N2IyODJmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@.jpg",
+		"score": 8.5
+	},
+	{
+		"id": 407887,
+		"source": "https://www.imdb.com/title/tt0407887/",
+		"title": "The Departed",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMTI1MTY2OTIxNV5BMl5BanBnXkFtZTYwNjQ4NjY3.jpg",
+		"score": 8.5
+	},
+	{
+		"id": 2582802,
+		"source": "https://www.imdb.com/title/tt2582802/",
+		"title": "Whiplash",
+		"poster": "https://m.media-amazon.com/images/M/MV5BOTA5NDZlZGUtMjAxOS00YTRkLTkwYmMtYWQ0NWEwZDZiNjEzXkEyXkFqcGdeQXVyMTMxODk2OTU@.jpg",
+		"score": 8.5
+	},
+	{
+		"id": 64116,
+		"source": "https://www.imdb.com/title/tt0064116/",
+		"title": "Once Upon a Time in the West",
+		"poster": "https://m.media-amazon.com/images/M/MV5BODQ3NDExOGYtMzI3Mi00NWRlLTkwNjAtNjc4MDgzZGJiZTA1XkEyXkFqcGdeQXVyMjUzOTY1NTc@.jpg",
+		"score": 8.5
+	},
+	{
+		"id": 482571,
+		"source": "https://www.imdb.com/title/tt0482571/",
+		"title": "The Prestige",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMjA4NDI0MTIxNF5BMl5BanBnXkFtZTYwNTM0MzY2.jpg",
+		"score": 8.5
+	},
+	{
+		"id": 4154796,
+		"source": "https://www.imdb.com/title/tt4154796/",
+		"title": "Avengers: Endgame",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@.jpg",
+		"score": 8.4
+	},
+	{
+		"id": 34583,
+		"source": "https://www.imdb.com/title/tt0034583/",
+		"title": "Casablanca",
+		"poster": "https://m.media-amazon.com/images/M/MV5BY2IzZGY2YmEtYzljNS00NTM5LTgwMzUtMzM1NjQ4NGI0OTk0XkEyXkFqcGdeQXVyNDYyMDk5MTU@.jpg",
+		"score": 8.5
+	},
+	{
+		"id": 95327,
+		"source": "https://www.imdb.com/title/tt0095327/",
+		"title": "Grave of the Fireflies",
+		"poster": "https://m.media-amazon.com/images/M/MV5BZmY2NjUzNDQtNTgxNC00M2Q4LTljOWQtMjNjNDBjNWUxNmJlXkEyXkFqcGdeQXVyNTA4NzY1MzY@.jpg",
+		"score": 8.5
+	},
+	{
+		"id": 47396,
+		"source": "https://www.imdb.com/title/tt0047396/",
+		"title": "Rear Window",
+		"poster": "https://m.media-amazon.com/images/M/MV5BNGUxYWM3M2MtMGM3Mi00ZmRiLWE0NGQtZjE5ODI2OTJhNTU0XkEyXkFqcGdeQXVyMTQxNzMzNDI@.jpg",
+		"score": 8.5
+	},
+	{
+		"id": 95765,
+		"source": "https://www.imdb.com/title/tt0095765/",
+		"title": "Cinema Paradiso",
+		"poster": "https://m.media-amazon.com/images/M/MV5BM2FhYjEyYmYtMDI1Yy00YTdlLWI2NWQtYmEzNzAxOGY1NjY2XkEyXkFqcGdeQXVyNTA3NTIyNDg@.jpg",
+		"score": 8.5
+	},
+	{
+		"id": 78748,
+		"source": "https://www.imdb.com/title/tt0078748/",
+		"title": "Alien",
+		"poster": "https://m.media-amazon.com/images/M/MV5BOGQzZTBjMjQtOTVmMS00NGE5LWEyYmMtOGQ1ZGZjNmRkYjFhXkEyXkFqcGdeQXVyMjUzOTY1NTc@.jpg",
+		"score": 8.5
+	},
+	{
+		"id": 82971,
+		"source": "https://www.imdb.com/title/tt0082971/",
+		"title": "Indiana Jones and the Raiders of the Lost Ark",
+		"poster": "https://m.media-amazon.com/images/M/MV5BNTU2ODkyY2MtMjU1NC00NjE1LWEzYjgtMWQ3MzRhMTE0NDc0XkEyXkFqcGdeQXVyMjM4MzQ4OTQ@.jpg",
+		"score": 8.4
+	},
+	{
+		"id": 209144,
+		"source": "https://www.imdb.com/title/tt0209144/",
+		"title": "Memento",
+		"poster": "https://m.media-amazon.com/images/M/MV5BZTcyNjk1MjgtOWI3Mi00YzQwLWI5MTktMzY4ZmI2NDAyNzYzXkEyXkFqcGdeQXVyNjU0OTQ0OTY@.jpg",
+		"score": 8.4
+	},
+	{
+		"id": 78788,
+		"source": "https://www.imdb.com/title/tt0078788/",
+		"title": "Apocalypse Now",
+		"poster": "https://m.media-amazon.com/images/M/MV5BYmQyNTA1ZGItNjZjMi00NzFlLWEzMWEtNWMwN2Q2MjJhYzEyXkEyXkFqcGdeQXVyMjUzOTY1NTc@.jpg",
+		"score": 8.5
+	},
+	{
+		"id": 32553,
+		"source": "https://www.imdb.com/title/tt0032553/",
+		"title": "The Great Dictator",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMmExYWJjNTktNGUyZS00ODhmLTkxYzAtNWIzOGEyMGNiMmUwXkEyXkFqcGdeQXVyNjU0OTQ0OTY@.jpg",
+		"score": 8.4
+	},
+	{
+		"id": 405094,
+		"source": "https://www.imdb.com/title/tt0405094/",
+		"title": "The Lives of Others",
+		"poster": "https://m.media-amazon.com/images/M/MV5BNmQyNmJjM2ItNTQzYi00ZjMxLWFjMDYtZjUyN2YwZDk5YWQ2XkEyXkFqcGdeQXVyMjUzOTY1NTc@.jpg",
+		"score": 8.4
+	},
+	{
+		"id": 4154756,
+		"source": "https://www.imdb.com/title/tt4154756/",
+		"title": "Avengers: Infinity War",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@.jpg",
+		"score": 8.4
+	},
+	{
+		"id": 1853728,
+		"source": "https://www.imdb.com/title/tt1853728/",
+		"title": "Django Unchained",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@.jpg",
+		"score": 8.4
+	},
+	{
+		"id": 4633694,
+		"source": "https://www.imdb.com/title/tt4633694/",
+		"title": "Spider-Man: Into the Spider-Verse",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@.jpg",
+		"score": 8.4
+	},
+	{
+		"id": 81505,
+		"source": "https://www.imdb.com/title/tt0081505/",
+		"title": "The Shining",
+		"poster": "https://m.media-amazon.com/images/M/MV5BZWFlYmY2MGEtZjVkYS00YzU4LTg0YjQtYzY1ZGE3NTA5NGQxXkEyXkFqcGdeQXVyMTQxNzMzNDI@.jpg",
+		"score": 8.4
+	},
+	{
+		"id": 50825,
+		"source": "https://www.imdb.com/title/tt0050825/",
+		"title": "Paths of Glory",
+		"poster": "https://m.media-amazon.com/images/M/MV5BOTI5Nzc0OTMtYzBkMS00NjkxLThmM2UtNjM2ODgxN2M5NjNkXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@.jpg",
+		"score": 8.4
+	},
+	{
+		"id": 910970,
+		"source": "https://www.imdb.com/title/tt0910970/",
+		"title": "WALL\u00b7E",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMjExMTg5OTU0NF5BMl5BanBnXkFtZTcwMjMxMzMzMw@@.jpg",
+		"score": 8.4
+	},
+	{
+		"id": 43014,
+		"source": "https://www.imdb.com/title/tt0043014/",
+		"title": "Sunset Blvd.",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMTU0NTkyNzYwMF5BMl5BanBnXkFtZTgwMDU0NDk5MTI@.jpg",
+		"score": 8.4
+	},
+	{
+		"id": 57012,
+		"source": "https://www.imdb.com/title/tt0057012/",
+		"title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+		"poster": "https://m.media-amazon.com/images/M/MV5BZWI3ZTMxNjctMjdlNS00NmUwLWFiM2YtZDUyY2I3N2MxYTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@.jpg",
+		"score": 8.4
+	},
+	{
+		"id": 119698,
+		"source": "https://www.imdb.com/title/tt0119698/",
+		"title": "Princess Mononoke",
+		"poster": "https://m.media-amazon.com/images/M/MV5BNGIzY2IzODQtNThmMi00ZDE4LWI5YzAtNzNlZTM1ZjYyYjUyXkEyXkFqcGdeQXVyODEzNjM5OTQ@.jpg",
+		"score": 8.4
+	},
+	{
+		"id": 364569,
+		"source": "https://www.imdb.com/title/tt0364569/",
+		"title": "Oldboy",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMTI3NTQyMzU5M15BMl5BanBnXkFtZTcwMTM2MjgyMQ@@.jpg",
+		"score": 8.4
+	},
+	{
+		"id": 51201,
+		"source": "https://www.imdb.com/title/tt0051201/",
+		"title": "Witness for the Prosecution",
+		"poster": "https://m.media-amazon.com/images/M/MV5BNDQwODU5OWYtNDcyNi00MDQ1LThiOGMtZDkwNWJiM2Y3MDg0XkEyXkFqcGdeQXVyMDI2NDg0NQ@@.jpg",
+		"score": 8.4
+	},
+	{
+		"id": 1345836,
+		"source": "https://www.imdb.com/title/tt1345836/",
+		"title": "The Dark Knight Rises",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@.jpg",
+		"score": 8.4
+	},
+	{
+		"id": 87843,
+		"source": "https://www.imdb.com/title/tt0087843/",
+		"title": "Once Upon a Time in America",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMGFkNWI4MTMtNGQ0OC00MWVmLTk3MTktOGYxN2Y2YWVkZWE2XkEyXkFqcGdeQXVyNjU0OTQ0OTY@.jpg",
+		"score": 8.3
+	},
+	{
+		"id": 6751668,
+		"source": "https://www.imdb.com/title/tt6751668/",
+		"title": "Parasite",
+		"poster": "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@.jpg",
+		"score": 8.5
+	},
+	{
+		"id": 90605,
+		"source": "https://www.imdb.com/title/tt0090605/",
+		"title": "Aliens",
+		"poster": "https://m.media-amazon.com/images/M/MV5BZGU2OGY5ZTYtMWNhYy00NjZiLWI0NjUtZmNhY2JhNDRmODU3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@.jpg",
+		"score": 8.4
+	},
+	{
+		"id": 169547,
+		"source": "https://www.imdb.com/title/tt0169547/",
+		"title": "American Beauty",
+		"poster": "https://m.media-amazon.com/images/M/MV5BNTBmZWJkNjctNDhiNC00MGE2LWEwOTctZTk5OGVhMWMyNmVhXkEyXkFqcGdeQXVyMTMxODk2OTU@.jpg",
+		"score": 8.4
+	},
+	{
+		"id": 2380307,
+		"source": "https://www.imdb.com/title/tt2380307/",
+		"title": "Coco",
+		"poster": "https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@.jpg",
+		"score": 8.4
+	},
+	{
+		"id": 5311514,
+		"source": "https://www.imdb.com/title/tt5311514/",
+		"title": "Your Name.",
+		"poster": "https://m.media-amazon.com/images/M/MV5BODRmZDVmNzUtZDA4ZC00NjhkLWI2M2UtN2M0ZDIzNDcxYThjL2ltYWdlXkEyXkFqcGdeQXVyNTk0MzMzODA@.jpg",
+		"score": 8.4
+	},
+	{
+		"id": 112573,
+		"source": "https://www.imdb.com/title/tt0112573/",
+		"title": "Braveheart",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMzkzMmU0YTYtOWM3My00YzBmLWI0YzctOGYyNTkwMWE5MTJkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@.jpg",
+		"score": 8.4
+	},
+	{
+		"id": 82096,
+		"source": "https://www.imdb.com/title/tt0082096/",
+		"title": "The Boat",
+		"poster": "https://m.media-amazon.com/images/M/MV5BNDBjMWUxNTUtNjZiNi00YzJhLTgzNzUtMTRiY2FkZmMzYTNjXkEyXkFqcGdeQXVyMTUzMDUzNTI3.jpg",
+		"score": 8.4
+	},
+	{
+		"id": 1187043,
+		"source": "https://www.imdb.com/title/tt1187043/",
+		"title": "3 Idiots",
+		"poster": "https://m.media-amazon.com/images/M/MV5BNTkyOGVjMGEtNmQzZi00NzFlLTlhOWQtODYyMDc2ZGJmYzFhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@.jpg",
+		"score": 8.4
+	},
+	{
+		"id": 986264,
+		"source": "https://www.imdb.com/title/tt0986264/",
+		"title": "Like Stars on Earth",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMDhjZWViN2MtNzgxOS00NmI4LThiZDQtZDI3MzM4MDE4NTc0XkEyXkFqcGdeQXVyMTMxODk2OTU@.jpg",
+		"score": 8.3
+	},
+	{
+		"id": 86190,
+		"source": "https://www.imdb.com/title/tt0086190/",
+		"title": "Star Wars: Episode VI - Return of the Jedi",
+		"poster": "https://m.media-amazon.com/images/M/MV5BOWZlMjFiYzgtMTUzNC00Y2IzLTk1NTMtZmNhMTczNTk0ODk1XkEyXkFqcGdeQXVyNTAyODkwOQ@@.jpg",
+		"score": 8.3
+	},
+	{
+		"id": 114709,
+		"source": "https://www.imdb.com/title/tt0114709/",
+		"title": "Toy Story",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMDU2ZWJlMjktMTRhMy00ZTA5LWEzNDgtYmNmZTEwZTViZWJkXkEyXkFqcGdeQXVyNDQ2OTk4MzI@.jpg",
+		"score": 8.3
+	},
+	{
+		"id": 105236,
+		"source": "https://www.imdb.com/title/tt0105236/",
+		"title": "Reservoir Dogs",
+		"poster": "https://m.media-amazon.com/images/M/MV5BZmExNmEwYWItYmQzOS00YjA5LTk2MjktZjEyZDE1Y2QxNjA1XkEyXkFqcGdeQXVyMTQxNzMzNDI@.jpg",
+		"score": 8.3
+	},
+	{
+		"id": 86879,
+		"source": "https://www.imdb.com/title/tt0086879/",
+		"title": "Amadeus",
+		"poster": "https://m.media-amazon.com/images/M/MV5BNWJlNzUzNGMtYTAwMS00ZjI2LWFmNWQtODcxNWUxODA5YmU1XkEyXkFqcGdeQXVyNTIzOTk5ODM@.jpg",
+		"score": 8.4
+	},
+	{
+		"id": 5074352,
+		"source": "https://www.imdb.com/title/tt5074352/",
+		"title": "Dangal",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMTQ4MzQzMzM2Nl5BMl5BanBnXkFtZTgwMTQ1NzU3MDI@.jpg",
+		"score": 8.3
+	},
+	{
+		"id": 119217,
+		"source": "https://www.imdb.com/title/tt0119217/",
+		"title": "Good Will Hunting",
+		"poster": "https://m.media-amazon.com/images/M/MV5BOTI0MzcxMTYtZDVkMy00NjY1LTgyMTYtZmUxN2M3NmQ2NWJhXkEyXkFqcGdeQXVyMTQxNzMzNDI@.jpg",
+		"score": 8.3
+	},
+	{
+		"id": 361748,
+		"source": "https://www.imdb.com/title/tt0361748/",
+		"title": "Inglourious Basterds",
+		"poster": "https://m.media-amazon.com/images/M/MV5BOTJiNDEzOWYtMTVjOC00ZjlmLWE0NGMtZmE1OWVmZDQ2OWJhXkEyXkFqcGdeQXVyNTIzOTk5ODM@.jpg",
+		"score": 8.3
+	},
+	{
+		"id": 22100,
+		"source": "https://www.imdb.com/title/tt0022100/",
+		"title": "M",
+		"poster": "https://m.media-amazon.com/images/M/MV5BODA4ODk3OTEzMF5BMl5BanBnXkFtZTgwMTQ2ODMwMzE@.jpg",
+		"score": 8.3
+	},
+	{
+		"id": 180093,
+		"source": "https://www.imdb.com/title/tt0180093/",
+		"title": "Requiem for a Dream",
+		"poster": "https://m.media-amazon.com/images/M/MV5BOTdiNzJlOWUtNWMwNS00NmFlLWI0YTEtZmI3YjIzZWUyY2Y3XkEyXkFqcGdeQXVyNjU0OTQ0OTY@.jpg",
+		"score": 8.3
+	},
+	{
+		"id": 62622,
+		"source": "https://www.imdb.com/title/tt0062622/",
+		"title": "2001: A Space Odyssey",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMmNlYzRiNDctZWNhMi00MzI4LThkZTctMTUzMmZkMmFmNThmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@.jpg",
+		"score": 8.3
+	},
+	{
+		"id": 52357,
+		"source": "https://www.imdb.com/title/tt0052357/",
+		"title": "Vertigo",
+		"poster": "https://m.media-amazon.com/images/M/MV5BYTE4ODEwZDUtNDFjOC00NjAxLWEzYTQtYTI1NGVmZmFlNjdiL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@.jpg",
+		"score": 8.3
+	},
+	{
+		"id": 338013,
+		"source": "https://www.imdb.com/title/tt0338013/",
+		"title": "Eternal Sunshine of the Spotless Mind",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMTY4NzcwODg3Nl5BMl5BanBnXkFtZTcwNTEwOTMyMw@@.jpg",
+		"score": 8.3
+	},
+	{
+		"id": 33467,
+		"source": "https://www.imdb.com/title/tt0033467/",
+		"title": "Citizen Kane",
+		"poster": "https://m.media-amazon.com/images/M/MV5BYjBiOTYxZWItMzdiZi00NjlkLWIzZTYtYmFhZjhiMTljOTdkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@.jpg",
+		"score": 8.3
+	},
+	{
+		"id": 93058,
+		"source": "https://www.imdb.com/title/tt0093058/",
+		"title": "Full Metal Jacket",
+		"poster": "https://m.media-amazon.com/images/M/MV5BNzkxODk0NjEtYjc4Mi00ZDI0LTgyYjEtYzc1NDkxY2YzYTgyXkEyXkFqcGdeQXVyNzkwMjQ5NzM@.jpg",
+		"score": 8.3
+	},
+	{
+		"id": 2106476,
+		"source": "https://www.imdb.com/title/tt2106476/",
+		"title": "The Hunt",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMTg2NDg3ODg4NF5BMl5BanBnXkFtZTcwNzk3NTc3Nw@@.jpg",
+		"score": 8.3
+	},
+	{
+		"id": 53125,
+		"source": "https://www.imdb.com/title/tt0053125/",
+		"title": "North by Northwest",
+		"poster": "https://m.media-amazon.com/images/M/MV5BZDA3NDExMTUtMDlhOC00MmQ5LWExZGUtYmI1NGVlZWI4OWNiXkEyXkFqcGdeQXVyNjc1NTYyMjg@.jpg",
+		"score": 8.3
+	},
+	{
+		"id": 66921,
+		"source": "https://www.imdb.com/title/tt0066921/",
+		"title": "A Clockwork Orange",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMTY3MjM1Mzc4N15BMl5BanBnXkFtZTgwODM0NzAxMDE@.jpg",
+		"score": 8.3
+	},
+	{
+		"id": 208092,
+		"source": "https://www.imdb.com/title/tt0208092/",
+		"title": "Snatch",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMTA2NDYxOGYtYjU1Mi00Y2QzLTgxMTQtMWI1MGI0ZGQ5MmU4XkEyXkFqcGdeQXVyNDk3NzU2MTQ@.jpg",
+		"score": 8.2
+	},
+	{
+		"id": 211915,
+		"source": "https://www.imdb.com/title/tt0211915/",
+		"title": "Am\u00e9lie",
+		"poster": "https://m.media-amazon.com/images/M/MV5BNDg4NjM1YjMtYmNhZC00MjM0LWFiZmYtNGY1YjA3MzZmODc5XkEyXkFqcGdeQXVyNDk3NzU2MTQ@.jpg",
+		"score": 8.3
+	},
+	{
+		"id": 12349,
+		"source": "https://www.imdb.com/title/tt0012349/",
+		"title": "The Kid",
+		"poster": "https://m.media-amazon.com/images/M/MV5BZjhhMThhNDItNTY2MC00MmU1LTliNDEtNDdhZjdlNTY5ZDQ1XkEyXkFqcGdeQXVyNjc1NTYyMjg@.jpg",
+		"score": 8.3
+	}
+]

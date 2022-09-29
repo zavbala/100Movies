@@ -1,17 +1,16 @@
 <script lang="ts">
-	import { bucket } from '$lib/stores/bucket';
 	import { RESIZE } from '$lib/constant';
+	import { bucket } from '$lib/stores/bucket';
 	import type { IMovie } from '$lib/types';
 	import { fade, scale } from 'svelte/transition';
 
 	export let item: IMovie;
 	const { id, poster, title } = item;
 
-	$: isWatched = $bucket.includes(id);
+	$: watched = $bucket.includes(String(id));
 
-	const resizeImage = (source: string, sizes: string[] = ['190', '281']): string => {
-		const [file, type] = source.split('jpg');
-		// const [width, height] = sizes;
+	const resizeImage = (source: string, _sizes: string[] = ['190', '281']): string => {
+		const [file] = source.split('jpg');
 		return file + RESIZE + 'jpg';
 	};
 
@@ -21,7 +20,7 @@
 
 		console.log(split);
 
-		if (isWatched) {
+		if (watched) {
 			split.splice(split.indexOf(id), 1);
 			$bucket = String([...split]);
 		} else {
@@ -30,17 +29,17 @@
 	};
 </script>
 
-<article transition:fade {id} on:click={handleBucket}>
+<article transition:fade id={String(id)} on:click={handleBucket}>
 	<img
-		class:ghost={isWatched}
-		on:click={handleBucket}
-		on:dragstart|preventDefault={() => {}}
-		src={resizeImage(poster)}
 		alt={title}
 		loading="lazy"
+		class:ghost={watched}
+		on:click={handleBucket}
+		src={resizeImage(poster)}
+		on:dragstart|preventDefault
 	/>
 
-	{#if isWatched}
+	{#if watched}
 		<i transition:scale class="fi fi-sr-eye" />
 	{/if}
 

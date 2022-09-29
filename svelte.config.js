@@ -6,9 +6,6 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
-		files: {
-			hooks: 'src/hooks'
-		},
 		adapter: adapter()
 	}
 };

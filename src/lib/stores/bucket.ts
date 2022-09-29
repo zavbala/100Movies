@@ -1,5 +1,5 @@
 import { writable } from 'svelte/store';
-import { browser } from '$app/env';
+import { browser } from '$app/environment';
 
 const stored = browser && window.localStorage.getItem('bucket');
 export const bucket = writable(stored || '');

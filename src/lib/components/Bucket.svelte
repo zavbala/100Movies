@@ -1,10 +1,11 @@
 <script lang="ts">
-	import { onMount, getContext } from 'svelte';
-	import Movie from './Movie.svelte';
+	import { filteredByQuery, movies } from '$lib/stores/filter';
+	import type { IMovie } from '$lib/types';
+	import { getContext, onMount } from 'svelte';
 	import Error from './Error.svelte';
-	import { movies, filteredByQuery } from '$lib/stores/filter';
+	import Movie from './Movie.svelte';
 
-	const movieItems = getContext('items') as [];
+	const movieItems = getContext('items') as IMovie[];
 
 	onMount(() => {
 		$movies = movieItems;

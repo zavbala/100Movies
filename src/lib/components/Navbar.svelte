@@ -1,11 +1,11 @@
 <script lang="ts">
 	import { query } from '$lib/stores/filter';
 
-	let inputRef;
+	let inputRef: HTMLInputElement;
 	const restoreQuery = () => query.set('');
 
 	const handleHotKeys = (event: KeyboardEvent) => {
-		if (event.keyCode == 75 && event.ctrlKey) {
+		if (event.key === 'k' && event.ctrlKey) {
 			event.preventDefault();
 			inputRef.focus();
 		}
@@ -18,10 +18,10 @@
 	<div class="apart">
 		<i class="fi fi-rr-search" />
 		<input
+			type="search"
+			autocomplete="off"
 			bind:this={inputRef}
 			bind:value={$query}
-			autocomplete="off"
-			type="search"
 			placeholder="Search Movies"
 		/>
 
